@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary{
+    background-color: white;
+    color: #005FAC;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    padding: 20px 26px;
+}
+
+ul li i {
+    color: green;
+    margin-right:10px;
+}
+
+
+/* Header Section  */
+
+.banner-container{
+    background-image: url("images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-details{
+    max-width: 1140px;
+    height: 100vh;
+    color: white;
+    text-align: right;
+    margin: 0 auto;
+    padding-bottom: 65px;
+}
+
+.banner-title{
+    padding-top: 170px;
+    font-size: 65px;
+    font-weight: bold;
+    color: white#151414;
+    margin-bottom: 16px;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+/* Main section  */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.my-failure-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+.failure-title{    
+    color: #151414;
+    padding: 0px 72px;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.failure-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 20px;
+    padding: 0px 72px;
+    line-height: 20px;
+}
+
+.my-failure-details ul li{
+    list-style: none;
+    line-height: 25px;
+    padding: 0px 72px;
+}
+
+
+.plan-title{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.Plan-content{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+}
+.plan-title-item{
+    font-size: 30px;
+    font-weight: bold;
+    color: #151414;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.plan-desc{
+    color: #737272;
+    font-size: 18px;
+}
+
+.positive-item{
+    margin-top: 100px;
+    width: 100%;
+    height: 280px;
+    background-image:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("images/watch.png");    
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+.positive-title{
+    font-size: 40px;
+    padding: 50px 60px;
+    color: white;
+}
+
+.btn-call-now{
+    background-color: white;
+    color: #005FAC;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 16px 26px;
+    margin-left: 60px;
+    margin-top: -25px;
+}
+
+
+
+.learn-container{
+    text-align: center;
+    margin-top: 50px;   
+}
+
+.learn-new-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+
+.learn-text{
+    font-size: 22px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.learns-container{
+    display: flex;
+    gap: 40px;
+}
+
+.learn-container img {
+    width: 340px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:10px;
+}
+
+.learn{
+    width: 340px;
+    background:white;
+    box-shadow: 4px 4px 8px gray;
+    border-radius:10px;
+    margin-top: 50px;
+}
+
+.learn-title{
+    padding: 10px;
+}
+
+.learn-description{
+    padding: 10px;
+}
+
+
+
+footer{
+    background-color: #151414;
+    color:white;
+    margin-top: 100px;
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.footer-desc{
+    font-weight: 400;
+    font-size: 16px;
+    width: 50%;
+    line-height: 25px;
+    margin-bottom: 22px;
+    color: #FFFFFF;
+}
+
+.footer-sub-title{
+    font-size: 16px;
+    margin: 20px 0px;
+    color: #FFFFFF;
+}
+.footer-img img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.footer-subscribe{
+    margin-left: -180px;
+}
+
+.subscribe-title{
+    margin-bottom: 20px;
+    font-weight: 600;
+     font-size: 25px;
+}
+
+.btn-footer{
+   background-color:#005FAC;   
+   padding: 16px 22px;
+   margin-top: 25px;
+   font-size: 16px;
+   color: white;
+   font-weight: bold;
+   border-radius: 5px;
+}
+
+.footer-input{
+    width: 100%;
+    background-color: #151414;
+    padding: 16px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
